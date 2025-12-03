@@ -97,37 +97,45 @@ if($_SESSION['level']==""){
     <!-- MENU -->
     <div class="grid">
 
-        <a href="data_buku.php" class="card">
-            <div class="icon">📚</div>
-            <h3>Data Buku</h3>
-            <p>Lihat & kelola daftar buku perpustakaan.</p>
-        </a>
+    <a href="data_buku.php" class="card">
+        <div class="icon">📚</div>
+        <h3>Data Buku</h3>
+        <p>Lihat & kelola daftar buku perpustakaan.</p>
+    </a>
 
-        <a href="peminjaman.php" class="card">
-            <div class="icon">📖</div>
-            <h3>Data Peminjaman</h3>
-            <p>Cek peminjaman & pengembalian buku.</p>
-        </a>
+    <a href="peminjaman.php" class="card">
+        <div class="icon">📖</div>
+        <h3>Data Peminjaman</h3>
+        <p>Cek peminjaman & pengembalian buku.</p>
+    </a>
 
-        <a href="pengunjung.php" class="card">
-            <div class="icon">👥</div>
-            <h3>Data Pengunjung</h3>
-            <p>Riwayat kunjungan dan statistik harian.</p>
-        </a>
+    <a href="pengunjung.php" class="card">
+        <div class="icon">👥</div>
+        <h3>Data Pengunjung</h3>
+        <p>Riwayat kunjungan dan statistik harian.</p>
+    </a>
 
-        <a href="laporan.php" class="card">
-            <div class="icon">📊</div>
-            <h3>Laporan</h3>
-            <p>Cetak laporan harian, mingguan, atau bulanan.</p>
-        </a>
+    <a href="laporan.php" class="card">
+        <div class="icon">📊</div>
+        <h3>Laporan</h3>
+        <p>Cetak laporan harian, mingguan, atau bulanan.</p>
+    </a>
 
-        <a href="akun.php" class="card">
-            <div class="icon">⚙️</div>
-            <h3>Manajemen Akun</h3>
-            <p>Kelola akun admin atau petugas perpustakaan.</p>
-        </a>
+    <a href="akun.php" class="card">
+        <div class="icon">⚙️</div>
+        <h3>Manajemen Akun</h3>
+        <p>Kelola akun admin atau petugas perpustakaan.</p>
+    </a>
 
-    </div>
+    <!-- 🆕 FITUR BARU: Opsi Buku yang Mau Dipinjamkan -->
+    <a href="pilih_buku.php" class="card">
+        <div class="icon">📘</div>
+        <h3>Pilih Buku</h3>
+        <p>Pilih buku yang ingin dipinjamkan kepada anggota.</p>
+    </a>
+
+</div>
+
 
     <!-- LOGOUT -->
     <a href="logout.php" onclick="return confirm('Yakin ingin logout?')" class="logout">LOGOUT</a>
